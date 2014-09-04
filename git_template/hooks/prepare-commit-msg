@@ -1,0 +1,4 @@
+#!/bin/sh
+
+LOCAL_HOOK=$HOME/.git_template.local/hooks/prepare-commit-msg
+[[ -f $LOCAL_HOOK ]] && source $LOCAL_HOOK
