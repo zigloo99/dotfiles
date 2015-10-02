@@ -14,7 +14,7 @@
   pf = push --force-with-lease
   st = status
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore
   autocrlf = input
 [merge]
   ff = only
@@ -22,9 +22,21 @@
   template = ~/.gitmessage
 [fetch]
   prune = true
+<<<<<<< HEAD
 [rebase]
   autosquash = true
 [include]
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+=======
+[user]
+	name = Paul Wanless
+	email = paul@cap-us.com
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+>>>>>>> Commited changes to files

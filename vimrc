@@ -183,3 +183,4 @@ set diffopt+=vertical
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
+" vim:foldermethod=marker:foldlevel=0
