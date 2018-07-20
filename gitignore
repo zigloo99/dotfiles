@@ -14,38 +14,4 @@ db/*.sqlite3
 log/*.log
 rerun.txt
 tmp/**/*
-<<<<<<< HEAD
 /tags
-=======
-!tmp/cache/.keep
-*.pyc
-Icon
-._*
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Ruby ignores
-
-*.gem
-*.rbc
-
-/.config
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/spec/examples.txt
-/test/tmp/
-/test/version_tmp/
-/tmp/
->>>>>>> 93690d0 (Update to dotfiles)
