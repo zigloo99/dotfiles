@@ -27,3 +27,9 @@ MSG
 fi
 
 unset _old_path
+
+# mkdir .git/safe in the root of repositories you trust
+export PATH=".git/safe/../../bin:$PATH"
+export PATH="./bin:$PATH"
+# Local config
+[[ -f ~/.zshenv.local ]] && source ~/.zshenv.local
